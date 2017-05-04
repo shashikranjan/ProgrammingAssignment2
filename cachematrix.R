@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getInverse = getInverse)
 }
 
-# cachSolve function checks if the inverse of the matrix passed as argument is already cached, and 
+# cacheSolve function checks if the inverse of the matrix passed as argument is already cached, and 
 # returns the same if yes. Otherwise, it computes the inverse of x, and uses the setInverse() function
 # to cache it.
 
